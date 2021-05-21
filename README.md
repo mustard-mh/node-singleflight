@@ -1,5 +1,8 @@
 # node-singleflight
+
 provides a duplicate function call suppression
+
+If a duplicate comes in, the duplicate caller waits for the original to complete and receives the same results.
 
 ## Notice
 
