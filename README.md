@@ -16,3 +16,21 @@ NPM
 ```
 npm install node-singleflight --save
 ```
+
+## Usage
+
+ + See [do.test.js](./lib/do.test.js) File
+
+```js
+const singleflight = require('node-singleflight')
+
+async function example() {
+    let data = singleflight.Do('SomeKey', async () => {
+        let data = await doSomething()
+        let processed = processData(data)
+        return processed
+    })
+    return data
+}
+
+```
