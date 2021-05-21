@@ -6,16 +6,13 @@
     "jest": "^26.6.3"
   },
   "name": "node-singleflight",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "provides a duplicate function call suppression",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/mustard-mh/node-singleflight.git"
-  },
+  "repository": "git+ssh://git@github.com/mustard-mh/node-singleflight.git",
   "keywords": [
     "singleflight"
   ],
@@ -23,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/mustard-mh/node-singleflight/issues"
   },
-  "homepage": "https://github.com/mustard-mh/node-singleflight#readme"
+  "homepage": "https://github.com/mustard-mh/node-singleflight#readme",
+  "license": "MIT"
 }
